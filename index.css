@@ -1,0 +1,121 @@
+body{
+    background-color:hsl(216, 12%, 8%) ;
+}
+.cores{
+    font-size: 40px;
+    margin-top: 800px;
+}
+
+@keyframes borda {
+    15%{border-color: aqua;top:0px; left:0px;}
+    25%{border-color: rgb(228, 65, 0);top:0px; left:900px;}
+    50%{border-color: rgb(36, 1, 119);top:200px; left:900px;}
+    75%{border-color: rgb(245, 8, 225);top: 200px; left: 0px;}
+    90%{border-color: green;top: 0px; left: 0px;}
+}
+
+
+.container{
+    display: flex;
+}
+.flex{
+    display: flex;
+}
+.fundo-card{
+    height: 300px;
+    width: 300px;
+    background-color:hsl(213, 19%, 18%) ;
+    border-radius: 30px;
+    margin-left: 500px;
+    margin-top: 200px;
+    border: 1px solid white;
+    animation-name: borda;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.fundo-estrela{
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    background-color:hsl(216, 12%, 8%) ;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 1px solid white;
+    animation-name: borda;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+
+}
+
+.icone-estrela{
+    margin-left: 11px;
+    padding-top: 11px;
+}
+
+.titulo{
+    color: #fff;
+    font-family:Overpass ;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-left: 22px;
+}
+
+.descricao{
+    font-size: 15px;
+    font-family:Overpass ;
+    color: hsl(216, 12%, 54%) ;
+    margin-left: 22px;
+    margin-top: 15px;
+}
+.bolas{
+    flex: 1;
+    margin-top: 20px;
+    height: 35px;
+    margin-left: 20px;
+    max-width: 35px;
+    border-radius: 200px;
+    background-color: hsl(216, 12%, 8%);
+}
+
+.bola{
+    flex: 1;
+    margin-top: 20px;
+    height: 35px;
+    margin-left: 20px;
+    max-width: 35px;
+    border-radius: 200px;
+    background-color: hsl(217, 12%, 63%);
+}
+
+.numero{
+    margin-left: 14px;
+    margin-top: 8px;
+    color: #fff;
+}
+
+#hover:hover{
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+input{
+    background-color: #fff;
+    color:hsl(25, 97%, 53%) ;
+    cursor: pointer;
+    width: 250px;
+    height: 35px;
+    border-radius: 250px;
+    border: none;
+    margin-top: 15px;
+    margin-left: 23px;
+    font-family:Overpass ;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding-top: 4px;
+}
+
